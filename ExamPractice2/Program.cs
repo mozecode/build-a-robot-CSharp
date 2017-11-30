@@ -22,10 +22,6 @@ namespace ExamPractice2
             while (int.TryParse(Console.ReadLine(), out quantity)==false || quantity<0)
             { Console.Write("Try Again: "); }
 
-  
-
-
-
             Console.ReadKey();
 
         }
